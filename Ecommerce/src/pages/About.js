@@ -1,0 +1,6 @@
+import React from "react";
+import { FiHeart, FiShield, FiTruck } from "react-icons/fi";
+import Header from "../component/Header";
+import Footer from "../component/Footer";
+
+export default function About() { return <><Header/><main><section className="page-hero"><div className="container"><p className="eyebrow">Our story</p><h1>Shopping should feel simple.</h1><p>ShopNest brings useful, stylish products together without the noise. We focus on a clear experience, honest information, and products worth discovering.</p></div></section><section className="about-story container"><img src="/assets/images/about-left-image.jpg" alt="Our team"/><div><p className="eyebrow">Why ShopNest</p><h2>A thoughtful store for everyday life</h2><p>We believe a good online store should help you decide—not overwhelm you. Our collections are organized around quality, usefulness, and fair value.</p><div className="values"><div><FiHeart/><span><strong>Thoughtful picks</strong>Products people genuinely enjoy.</span></div><div><FiShield/><span><strong>Transparent</strong>Clear pricing and product details.</span></div><div><FiTruck/><span><strong>Dependable</strong>A smooth journey from cart to door.</span></div></div></div></section></main><Footer/></> }
