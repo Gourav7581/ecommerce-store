@@ -137,8 +137,8 @@ The UI was designed mobile-first with dedicated behavior for different screen si
 ### Installation
 
 ```bash
-git clone <your-repository-url>
-cd myecommerce
+git clone https://github.com/Gourav7581/ecommerce-store.git
+cd ecommerce-store
 npm install
 npm start
 ```
